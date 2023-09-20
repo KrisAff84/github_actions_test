@@ -1,3 +1,5 @@
+##### This repo is for the sole purpose of testing GitHub Actions CI Pipeline
+
 ##### build the project
 
     ./gradlew build
