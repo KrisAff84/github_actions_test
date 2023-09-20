@@ -1,1 +1,12 @@
-This GitHub Repo is for testing of GitHub Actions and building a CI/CD Pipeline
+##### build the project
+
+    ./gradlew build
+
+##### build Docker image called java-app. Execute from root
+
+    docker build -t java-app .
+    
+##### push image to repo 
+
+    docker tag java-app demo-app:java-1.0
+    
